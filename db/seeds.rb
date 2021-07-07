@@ -1,3 +1,8 @@
+Landmark.destroy_all
+Title.destroy_all
+Figure.destroy_all
+FigureTitle.destroy_all
+
 landmarks_list = {
     "Madison Square Guarden" => {
       :year_completed => 1901
@@ -69,3 +74,6 @@ title_list.each do |name, figure_hash|
   p.name = name
   p.save
 end
+
+
+puts "Done!!!"
